@@ -4,6 +4,7 @@
  ## How It Works
  
  - First, it calculates the direction to target like this. I created a scriptable object value system that make an easy access to positions in game.
+ 
            Vector3 selfPosition = transform.position;
            // Get the target position & calculate direction.
            Vector3 direction = targetValue.value - selfPosition;
