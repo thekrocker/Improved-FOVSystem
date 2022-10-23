@@ -37,7 +37,7 @@
                // Target is not in radius.
            }       
 
-- And we create a gizmos to see visually in edit-mode. It just basically creates and arc with angle/radius
+- And we create a gizmos to see visually in edit-mode. It just basically creates an arc with angle/radius
 
            #if UNITY_EDITOR
                private void OnDrawGizmos()
